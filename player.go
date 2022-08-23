@@ -15,7 +15,7 @@ func main() {
 
 	var path string
 
-	colorstring.Print("[yellow][+] [white]Enter Absolute Path: ")
+	colorstring.Print("[yellow][+] [white]Enter absolute path: ")
 	fmt.Scan(&path)
 
 	f, _ := os.Open(path)
